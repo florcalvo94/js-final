@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="container-fluid">
+    <header class="row">
+      <h1 id="mainTitle">MUNDO ENTRADA</h1>
+      <ul class="nav justify-content-end navbar">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./merchandise.html">Merchandise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./register.html">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shopping cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">E-ticket</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </header>
+    <section class="container-fluid login__content">
+      <div class="row justify-content-center">
+    <div class="register__container col-md-5">
+      <form class="form" id="login">
+        <h1 class="form__title">Ingresá a tu cuenta</h1> 
+        <div class="form__input-group">
+          <input type="text" class="form__innput" autofocus placeholder="Username or email">
+        </div>
+        <div class="form__input-group">
+          <input type="text" class="form__innput" autofocus placeholder="Username or email">
+        </div>
+        <button class="form__button" type="submit">Continue</button>
+        <p class="form__text">
+          <a href="#" class="form__link" >Olvidaste tu contraseña</a>
+        </p>
+        <p class="form__text">
+          <a class="form__link" id="linkCreateAccount">no estas registrado? Crea tu cuenta</a>
+        </p>    
+      </form>
+      <form class="form form--hidden" id="createAccount">
+        <h1 class="form__title">Registrate</h1> 
+        
+        <div class="form__input-group">
+          <input type="text" class="form__innput" autofocus placeholder="Username or email">
+        </div>
+        <div class="form__input-group">
+          <input type="text" class="form__innput" autofocus placeholder="Password">
+        </div>
+        <button class="form__button" type="submit">Continue</button>
+                <p class="form__text">
+          <button class="form__link" type="submit" id="linkLogin">ya tenes cuenta? ingresa a tu cuenta</button>
+        </p>    
+      </form>
+    </div>
+  </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming/p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+            <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+            <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+        </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/about/">About Us</a></li>
+            <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+        </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+       <a href="#">Scanfcode</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./jsregister.js" type="text/javascript"></script>
+  </body>
+</html>
